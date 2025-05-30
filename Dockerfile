@@ -1,6 +1,5 @@
 # Usa la imagen oficial de MSSQL Server
-FROM mcr.microsoft.com/mssql/server:2022-lts
-
+FROM mcr.microsoft.com/mssql/server:2022-latest
 # Establece las variables de entorno necesarias para MSSQL
 ENV ACCEPT_EULA=Y
 ENV MSSQL_SA_PASSWORD=123456
