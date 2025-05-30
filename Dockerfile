@@ -13,4 +13,4 @@ EXPOSE 1433
 
 # Opcional: Ejecuta comandos en el arranque para inicialización personalizada
 # CMD /opt/mssql/bin/sqlservr & sleep 30 && /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "123456" -i /init.sql
-CMD ["/opt/mssql/bin/sqlservr"]
+# CMD ["/opt/mssql/bin/sqlservr"]
